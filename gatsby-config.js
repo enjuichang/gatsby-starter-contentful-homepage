@@ -1,42 +1,29 @@
-// support for .env, .env.development, and .env.production
-require("dotenv").config()
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
-  siteMetadata: {
-    siteUrl: "https://gatsbycontentfulhomepage.gatsbyjs.io/",
-    title: "Gatsby Contentful Homepage Starter",
-    author: `Gatsby`,
-    description: "A Gatsby Starter for building homepages with Contentful",
-  },
   plugins: [
     {
-      resolve: "gatsby-source-contentful",
+      resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        downloadLocal: true,
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        host: process.env.CONTENTFUL_HOST,
-      },
-    },
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-image",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-vanilla-extract",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: "Gatsby Starter Contentful Homepage",
-        short_name: "Gatsby",
-        start_url: "/",
-        // These can be imported once ESM support lands
-        background_color: "#ffe491",
-        theme_color: "#004ca3",
-        icon: "src/favicon.png",
+        siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+        manifestSettings: {
+          favicon: "./content/images/favicon.png", // Path is relative to the root
+          siteName: "My Minimal Portfolio", // Used in manifest.json
+          shortName: "Portfolio", // Used in manifest.json
+          startUrl: "/", // Used in manifest.json
+          backgroundColor: "#FFFFFF", // Used in manifest.json
+          themeColor: "#000000", // Used in manifest.json
+          display: "minimal-ui", // Used in manifest.json
+        },
+        contentDirectory: "./content",
+        blogSettings: {
+          path: "/blog", // Defines the slug for the blog listing page
+          usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
+        },
+        // googleAnalytics: {
+        //     trackingId: "UA-XXXXXX-X",
+        //     anonymize: true, // Default true
+        //     environments: ["production", "development"] // Default ["production"]
+        // }
       },
     },
   ],
-}
+};

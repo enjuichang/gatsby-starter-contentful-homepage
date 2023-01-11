@@ -1,45 +1,27 @@
-import * as React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import * as sections from "../components/sections"
-import Fallback from "../components/fallback"
+import React from "react";
+import {
+  AboutSection,
+  ArticlesSection,
+  ContactSection,
+  HeroSection,
+  InterestsSection,
+  Page,
+  ProjectsSection,
+  Seo,
+} from "gatsby-theme-portfolio-minimal";
 
-export default function Homepage(props) {
-  const { homepage } = props.data
-
+export default function IndexPage() {
   return (
-    <Layout {...homepage}>
-      {homepage.blocks.map((block) => {
-        const { id, blocktype, ...componentProps } = block
-        const Component = sections[blocktype] || Fallback
-        return <Component key={id} {...componentProps} />
-      })}
-    </Layout>
-  )
+    <>
+      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Page useSplashScreenAnimation>
+        <HeroSection sectionId="hero" />
+        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
+        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
+        <InterestsSection sectionId="details" heading="Details" />
+        <ProjectsSection sectionId="features" heading="Built-in Features" />
+        <ContactSection sectionId="github" heading="Issues?" />
+      </Page>
+    </>
+  );
 }
-
-export const query = graphql`
-  {
-    homepage {
-      id
-      title
-      description
-      image {
-        id
-        url
-      }
-      blocks: content {
-        id
-        blocktype
-        ...HomepageHeroContent
-        ...HomepageFeatureListContent
-        ...HomepageCtaContent
-        ...HomepageLogoListContent
-        ...HomepageTestimonialListContent
-        ...HomepageBenefitListContent
-        ...HomepageStatListContent
-        ...HomepageProductListContent
-      }
-    }
-  }
-`

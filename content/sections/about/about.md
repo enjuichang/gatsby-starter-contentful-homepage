@@ -1,6 +1,6 @@
 ---
 imageSrc: "../../images/about-pic.png"
-imageAlt: "About Enjui Chang"
+imageAlt: "Picture of Enjui in India"
 ---
 
 **Enjui Chang** is a graduate of **Minerva University**, a highly-selective liberal arts university based in San Francisco. His academic works focused on **Earth Science** and **omputer Science**, specifically in the fields of **natural langauge processing (NLP)**, **frontend engineer**, and **seismology**. 

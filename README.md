@@ -1,5 +1,23 @@
 # Portfolio Website using Gatsby Starter Portfolio Minimal Theme
 
+---
+
+# TODOs:
+
+#### Content
+
+- [ ] Add blog posts x5
+- [ ] Connect hugo blog with website
+
+#### Updates
+
+- [ ] Update Skills x10
+- [ ] Update Project Section
+   - [ ] tech x3
+   - [ ] non tech x3
+
+---
+
 #### This portfolio website uses Portfolio Minimal Theme with Gatsby service.
 
 This is the repo for my personal portfolio website using **Gatsby.js** and hosted with **Netlify**. The portfolio includes the following services:

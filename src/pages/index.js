@@ -17,10 +17,11 @@ export default function IndexPage() {
       <Seo title="Enjui Chang's Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
+        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium', '']} />
         <AboutSection sectionId="about" heading="About Enjui" />
         <InterestsSection sectionId="details" heading="Skills" />
-        <ProjectsSection sectionId="projects" heading="Projects" />
+        <ProjectsSection sectionId="tech_projects" heading="Tech Projects" />
+        <ProjectsSection sectionId="nontech_projects" heading="Other Projects" />
         <ContactSection sectionId="contact" heading="How to Contact" />
       </Page>
     </>

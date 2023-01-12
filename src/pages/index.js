@@ -17,7 +17,7 @@ export default function IndexPage() {
       <Seo title="Enjui Chang's Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium', '']} />
+        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium', 'Blog']} />
         <AboutSection sectionId="about" heading="About Enjui" />
         <InterestsSection sectionId="details" heading="Skills" />
         <ProjectsSection sectionId="tech_projects" heading="Tech Projects" />

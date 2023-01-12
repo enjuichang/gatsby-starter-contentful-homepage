@@ -23,7 +23,7 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Projects", "url": "/#tech_projects" },
+        { "label": "Projects", "url": "/#projects" },
         { "label": "Find Me", "url": "/#contact" }
       ],
       "ctaButton": {

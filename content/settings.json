@@ -17,7 +17,7 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "ENJUI CHANG" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
@@ -28,12 +28,10 @@
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "/Enjui_Chang.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
-      ]
+        { "label": "© Enjui Chang 2023", "url": "/copyright" }      ]
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,

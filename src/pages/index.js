@@ -20,7 +20,7 @@ export default function IndexPage() {
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
         <AboutSection sectionId="about" heading="About Enjui" />
         <InterestsSection sectionId="details" heading="Skills" />
-        <ProjectsSection sectionId="features" heading="Projects" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
         <ContactSection sectionId="contact" heading="How to Contact" />
       </Page>
     </>

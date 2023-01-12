@@ -1,22 +1,17 @@
-<img src="screenshot.png" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
+# Portfolio Website using Gatsby Starter Portfolio Minimal Theme
 
-<a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme" target="_blank">
-<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud" />
-</a>
+#### This portfolio website uses Portfolio Minimal Theme with Gatsby service.
 
-# Gatsby Starter Portfolio Minimal Theme
+This is the repo for my personal portfolio website using **Gatsby.js** and hosted with **Netlify**. The portfolio includes the following services:
 
-#### A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.
-
-Portfolio Minimal is a Gatsby Theme that let's you create outstanding one-page portfolios within minutes. This Gatsby Starter is a boilerplate project that has the theme pre-installed and pre-configured.
-
-Just clone this Gatsby Starter, add the content. And that's it!
-
-[Live Demo on Gatsby Cloud](https://gatsbystarterportfoliominimalt.gatsbyjs.io/) · [Live Demo on Netlify](https://gatsby-starter-portfolio-minimal-theme.netlify.app/) · [Portfolio Minimal Theme on Github](https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal)
+- Medium integration
+- Responsive React frontend
+- Animations across section
+- Markdown blog post
+- Resume download
 
 ---
-
-## Installation
+## Instruction on installing the theme on your own
 
 1. Install the Gatsby CLI
 
@@ -41,14 +36,4 @@ Just clone this Gatsby Starter, add the content. And that's it!
 
 ---
 
-## Issues?
-
-If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
-
-Thanks a lot for using this starter! 💪
-
----
-
-<a href="https://www.buymeacoffee.com/kmuenster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Konstantin Münster – [konstantin.digital](https://konstantin.digital)
+**Credits**: Konstantin Münster – [konstantin.digital](https://konstantin.digital)

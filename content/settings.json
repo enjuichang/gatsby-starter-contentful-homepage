@@ -2,12 +2,12 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://enjui-chang-portfolio.netlify.app/",
-    "title": "Enjui Chang's Portfolio",
+    "title": "Enjui Chang",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "description": "The Portfolio Website for Enjui Chang",
     "author": "Enjui Chang",
     "avatar": "../content/images/avatar-pic.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "Enjui Chang is a graduate of Minerva University, a highly-selective liberal arts university based in San Francisco. His academic works focused on Earth Science and omputer Science, specifically in the fields of natural langauge processing (NLP), frontend engineer, and seismology.",
     "social": {
       "behance": "https://behance.com",
       "github": "https://github.com/enjuichang",

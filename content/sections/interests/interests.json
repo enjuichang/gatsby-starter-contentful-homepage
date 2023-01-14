@@ -1,58 +1,51 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Figma UI design",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/figma-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "ML (Python/AWS/Docker)",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/python-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "FE (React/TailwindCSS)",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/react-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "Data Viz (D3/Tableau)",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/d3-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "Git version (Linux/Git)",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/github-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "GIS (QGIS)",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/qgis-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Data Analysis (Python/R)",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Blazing Fast",
-      "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/r-logo.png",
         "alt": ""
       }
     }

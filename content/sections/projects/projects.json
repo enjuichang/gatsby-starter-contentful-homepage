@@ -2,47 +2,118 @@
     "projects": [
       {
         "visible": true,
-        "category": "🕹️ EASY AND QUICK SETUP",
-        "title": "Add content and deploy!",
-        "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-        "tags": ["Content Integration", "Ready-2-Deploy"],
+        "category": "Data Science",
+        "title": "Enhance your Playlists with Machine Learning: Spotify Automatic Playlist Continuation",
+        "description": "Recommend songs for a given playlist. This project starts from data collection all the way to model deployment to ensure you have a working model to showcase.",
+        "tags": ["rec-system", "data-science", "machine-learning"],
         "image": {
-          "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-          "alt": "Quick Setup",
-          "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "src": "../../images/spotify-recs.png",
+          "alt": "Spotify recommendation",
+          "linkTo": "https://github.com/enjuichang/PracticalDataScience-ENCA"
         },
         "links": [
           {
             "type": "github",
-            "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+            "url": "https://github.com/enjuichang/PracticalDataScience-ENCA"
           },
           {
-            "type": "external",
-            "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+            "type": "medium",
+            "url": "https://medium.com/towards-data-science/part-iii-building-a-song-recommendation-system-with-spotify-cf76b52705e7"
           }
         ]
       },
       {
         "visible": true,
-        "category": "🧰 EXTENDABLE LAYOUT",
-        "title": "Add more sections!",
-        "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-        "tags": ["Custom Sections", "Easy-2-Use"],
+        "category": "NLP",
+        "title": "COVID-19 Tweet Sentiment Analysis",
+        "description": "NLP sentiment classification for COVID-19 tweets.",
+        "tags": ["NLP", "data-science", "spaCy", "machine-learning"],
         "image": {
-          "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-          "alt": "Extendable Layout"
+          "src": "../../images/covid-tweet.png",
+          "alt": "covid-19 virus combined with tweet",
+          "linkTo": "https://github.com/enjuichang/covid_sentiment"
         },
         "links": [
           {
             "type": "github",
-            "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+            "url": "https://github.com/enjuichang/covid_sentiment"
+          },
+          {
+            "type": "medium",
+            "url": "https://medium.com/p/e550ee92ca79"
+          }
+        ]
+      },
+      {
+        "visible": true,
+        "category": "Data Science",
+        "title": "PSD lockdown: COVID-19 impact on seismic waves",
+        "description": "Power spectral density (PSD) is a common methodology to measure the energy of waves. This project focuses on the calculation of PSD of seismic waves in order to measure the impact of culture noise during the COVID-19 pandemic according to 'Global quieting of high-frequency seismic noise due to COVID-19 pandemic lockdown measures' from Lecocq et al. (2020).",
+        "tags": ["data-science", "seismology", "spectrogram"],
+        "image": {
+          "src": "../../images/lockdown.png",
+          "alt": "seismic signals during lockdown",
+          "linkTo": "https://github.com/enjuichang/PSD-lockdown"
+        },
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/enjuichang/PSD-lockdown"
+          }
+        ]
+      },
+      {
+        "visible": true,
+        "category": "Frontend",
+        "title": "Dashboard project using React and Material-UI",
+        "description": "This project is a dashboard that displays data from a database. The dashboard is built using React and Material-UI.",
+        "tags": ["typescript", "react", "material-ui", "frontend"],
+        "image": {
+          "src": "../../images/react-dashboard.png",
+          "alt": "Dashboard project using React and Material-UI",
+          "linkTo":  "https://github.com/enjuichang/react-dashboard"
+        },
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/enjuichang/react-dashboard"
+          }
+        ]
+      },
+      {
+        "visible": true,
+        "category": "Frontend",
+        "title": "Interactive Graph Visualization with d3.js (Internal Project)",
+        "description": "Using d3.js to visualize a graph with a large number of nodes and edges. The graph is interactive and allows users to explore the graph by clicking on nodes and edges.",
+        "tags": ["d3", "nlp", "react", "machine-learning"],
+        "image": {
+          "src": "../../images/d3-viz.png",
+          "alt": "Interactive Graph Visualization with d3.js",
+          "linkTo":  "https://github.com/enjuichang"
+        }
+      },
+      {
+        "visible": true,
+        "category": "Data Journalism",
+        "title": "Data visualization and journalism of Ye Shengji's ten-year diary",
+        "description": "This project is a data journalism project of Ye Shengji's ten-year diary. It includes the visualization and analysis of the data. The project is built using React and d3.js.",
+        "tags": ["history", "react", "d3", "journalism"],
+        "image": {
+          "src": "../../images/ww2-diary.png",
+          "alt": "Data visualization and journalism of Ye Shengji's ten-year diary",
+          "linkTo":  "https://github.com/enjuichang/diary-data-journalism"
+        },
+        "links": [
+          {
+            "type": "github",
+            "url": "https://github.com/enjuichang/diary-data-journalism"
           }
         ]
       }
     ],
     "button": {
       "visible": true,
-      "label": "Visit on Github",
+      "label": "Visit me on Github",
       "url": "https://github.com/enjuichang"
     }
   }

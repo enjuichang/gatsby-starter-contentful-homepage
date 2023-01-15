@@ -11,7 +11,7 @@
 
 #### Updates
 
-- [ ] Update Skills x10
+- [x] Update Skills x8
 - [ ] Update Project Section
    - [ ] tech x3
    - [ ] non tech x3

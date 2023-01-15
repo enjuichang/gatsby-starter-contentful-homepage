@@ -48,6 +48,13 @@
         "src": "../../images/r-logo.png",
         "alt": ""
       }
+    },
+    {
+      "label": "Seismology (ObsPy)",
+      "image": {
+        "src": "../../images/earthquake-logo.png",
+        "alt": ""
+      }
     }
   ],
   "button": {
